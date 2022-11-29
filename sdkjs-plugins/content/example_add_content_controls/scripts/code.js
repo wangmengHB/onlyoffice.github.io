@@ -135,7 +135,12 @@
 			_val = _val.replaceAll("\n", "");
 			var _obj = JSON.parse(_val);
 
-			window.Asc.plugin.executeMethod("AddContentControlList", [_obj.type, _obj.List, _obj.commonPr]);
+			window.Asc.plugin.executeMethod ("AddContentControlList", [
+				0, 
+				[{Display: "Item1_D", Value: "Item1_V"}, {Display: "Item2_D", Value: "Item2_V"}], 
+				{"Id" : 7, "Tag" : "{tag}", "Lock" : 0}
+			]);
+			// window.Asc.plugin.executeMethod("AddContentControlList", [_obj.type, _obj.List, _obj.commonPr]);
 		};
 
 		document.getElementById("buttonIDInsertDP").onclick = function() {

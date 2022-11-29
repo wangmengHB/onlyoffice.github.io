@@ -1,5 +1,7 @@
 (function(window, undefined) {
-	var URL_TO_PLUGIN = "https://wangmenghb.github.io/onlyoffice.github.io/sdkjs-plugins/content/lusatest/";
+	var URL_TO_PLUGIN = "https://wangmenghb.github.io/onlyoffice.github.io/sdkjs-plugins/content/example_add_content_controls/";
+
+	// var URL_TO_PLUGIN = " http://192.168.0.105:3000/";
 	
 	var xhrObj = new XMLHttpRequest();
 	xhrObj.open('GET', URL_TO_PLUGIN + "config.json", false);
