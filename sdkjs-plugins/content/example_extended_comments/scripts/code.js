@@ -92,7 +92,7 @@
 		});
 
 		window.Asc.plugin.executeMethod("GetAllComments",null,function(comments) {
-			// console.log(comments);
+			console.log('GetAllComments', comments);
 			Comments = comments;
 			addComments(comments);
 		});
