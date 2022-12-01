@@ -1,5 +1,5 @@
 (function(window, undefined) {
-	var URL_TO_PLUGIN = "https://wangmenghb.github.io/onlyoffice.github.io/sdkjs-plugins/content/example_extended_comments/";
+	var URL_TO_PLUGIN = "https://wangmenghb.github.io/onlyoffice.github.io/sdkjs-plugins/content/lusa-plugin-question/";
 
 	// var URL_TO_PLUGIN = " http://localhost:3000/";
 	
